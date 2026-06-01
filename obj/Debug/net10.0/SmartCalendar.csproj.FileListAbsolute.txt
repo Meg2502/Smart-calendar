@@ -96,3 +96,5 @@ C:\Users\megva\source\repos\SmartCalendar\obj\Debug\net10.0\refint\SmartCalendar
 C:\Users\megva\source\repos\SmartCalendar\obj\Debug\net10.0\SmartCalendar.pdb
 C:\Users\megva\source\repos\SmartCalendar\obj\Debug\net10.0\SmartCalendar.genruntimeconfig.cache
 C:\Users\megva\source\repos\SmartCalendar\obj\Debug\net10.0\ref\SmartCalendar.dll
+C:\Users\megva\source\repos\SmartCalendar\obj\Debug\net10.0\SmartCalendar.sourcelink.json
+C:\Users\megva\source\repos\SmartCalendar\obj\Debug\net10.0\SmartCalendar.csproj.AssemblyReference.cache

@@ -1,0 +1,46 @@
+﻿ @page
+@model SmartCalendar.Pages.Events.CreateEventModel
+@{
+    ViewData["Title"] = "Event";
+}
+
+<form method="post" name="EventForm">
+    <div>
+        <label>Date</label>
+        <input asp-for="inputEvent.Date" type="date" name="date" required/>
+    </div>
+
+    <div>
+        <label asp-for="inputEvent.Name"></label>
+        <input type="text" name="title" required/>
+    </div>
+
+    <div> 
+        <label asp-for="inputEvent.Location"></label>
+        <input type="text" name="location"/>
+    </div>
+
+    <div> 
+        <label> Description</label>
+        <input type="text" name="eventdescription"/>
+    </div>
+
+    <div> 
+    <label> Start time</label>
+    <input type="time" name="starttime" required/>
+    </div>
+
+    <div>
+        <label> End time</label>
+        <input type="time" name="endtime" required/>
+    </div>
+
+    <div>
+        <label> Additional dates</label>
+        <input type="date" name="alldates" />
+    </div> 
+
+    <div>
+        <button type="submit">Add event</button>
+    </div>
+</form>
