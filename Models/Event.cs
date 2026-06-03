@@ -11,8 +11,8 @@ namespace SmartCalendar.Models
         public DateTime Date { get; set; }
         public DateTime? EndDate { get; set; }
         public string Location { get; set; }
-        public TimeOnly StartTime { get; set; }
-        public TimeOnly EndTime { get; set; }
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime { get; set; }
         public string Note { get; set; }
         public string Colour { get; set; }
 
@@ -34,8 +34,9 @@ namespace SmartCalendar.Models
         }
 
 
-
-        public Event(string name, DateTime date, DateTime? enddate, string location, TimeOnly starttime, TimeOnly endtime, string note, string colour)
+        public Event()
+        { }
+        public Event(string name, DateTime date, DateTime? enddate, string location, DateTime starttime, DateTime endtime, string note, string colour)
         {
             Name= name;
             Date= date;

@@ -7,7 +7,7 @@ namespace SmartCalendar.Pages.Events
     public class CreateEventModel : PageModel
     {
         [BindProperty]
-        public Event inputEvent { get; set; }
+        public Models.Event inputEvent { get; set; }
         public void OnGet()
         {
             
@@ -15,10 +15,6 @@ namespace SmartCalendar.Pages.Events
         public void OnPost(Event e)
         {
             
-            Event.EndDate ??= Event.Date;
-
-            
-            return Page();
         }
        
     }

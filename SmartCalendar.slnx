@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../DataAccessLayer/DataAccessLayer.csproj" Id="41be9939-6ee1-4366-b732-3f1150d1611e" />
   <Project Path="SmartCalendar.csproj" />
 </Solution>

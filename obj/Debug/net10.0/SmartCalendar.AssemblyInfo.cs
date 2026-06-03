@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartCalendar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+813d09ac633cdca73a96471bba362583d6f9d531")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c5173fe9adc69f29bb9b0268013dddaf650880a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartCalendar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartCalendar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
